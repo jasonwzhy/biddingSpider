@@ -1,0 +1,208 @@
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>欢迎光临必联网会员登录页面！</title>
+<link rel="shortcut icon" href="/cas/images/login/favicon.ico"></link>
+<style>
+*{padding:0px;margin:0px;}
+body{font-size:12px;color:#333;font-family:"宋体";background:#FFF;}
+img{border:0px;}
+.clear{clear:both;}
+
+.btn_head a.a_btn1,.btn_head a.a_btn2,.vip_box thead td b,.btn_login,.btn_res,.notvip em,.notvip .now_res,.notvip i,.serve_sort .left,.serve_sort .right,.serve_sort .sort .box dl,.serve_sort .sort .box dl dt{background:url(/cas/images/login/login_group.jpg) no-repeat}
+
+.login_top{width:960px;height:97px;margin:0 auto;background:url(/cas/images/login/login_group.jpg) repeat-x 0 92px;overflow:hidden;}
+.login_head{width:960px;height:62px;padding-top:25px;border-bottom:5px solid #f47e00;background:url(/cas/images/login/login_headbg.jpg) no-repeat right 0;overflow:hidden;}
+.login_logo,.login_sublogo{float:left;margin-left:10px;width:119px;height:52px;overflow:hidden;}
+.btn_head{float:right;height:26px;padding-right:40px;margin-top:37px;overflow:hidden;}
+.btn_head a{display:inline-block;margin-left:3px;width:80px;height:26px;line-height:26px;font-size:14px;font-weight:bold;text-align:center;overflow:hidden;color:#fff;text-decoration:none}
+.btn_head a.a_btn1{background-position:0 -71px;}
+.btn_head a.a_btn2{background-position:-87px -71px;}
+
+.login_main{width:730px;margin:50px auto 15px;overflow:hidden;}
+.login_main .col_red{color:#cc0000;}
+.vip_login{width:708px;height:283px;margin:0 auto;background:url(/cas/images/login/login_bg.jpg) no-repeat 0 center;overflow:hidden;}
+.vip_box{float:right;width:300px;margin-right:10px;}
+.vip_box thead td{height:32px;}
+.vip_box thead td b{display:block;font-size:0px;color:#fff;width:100px;height:30px;text-indent:-1000px;background-position:-2px -7px;}
+.vip_box tbody td{height:50px;font-size:14px;}
+.vip_box tbody td .text{width:194px;height:25px;font-family:Arial;font-size:14px;border:1px solid #ccc;border-color:#c1c1c1 #e0e0e0 #e0e0e0 #c1c1c1;line-height:26px;}
+.btn_login{width:91px;height:32px;cursor:pointer;border:0;margin:5px 6px 0 0;background-position:0 -105px;}
+.btn_res{width:91px;height:32px;cursor:pointer;border:0;margin-right:6px;background-position:-95px -105px;}
+.vip_box a:link,.vip_box a:visited{float:left;margin-right:6px;width:91px;height:32px;line-height:32px;display:inline-block;text-align:center;color:#75baff;text-decoration:none;}
+.notvip{clear:both;width:730px;height:26px;margin:0 auto;overflow:hidden;}
+.notvip em{float:left;display:inline-block;width:138px;height:26px;background-position:0 -40px;color:#fff;text-indent:-1000px;}
+.notvip .now_res{float:left;display:inline-block;margin:0 60px;width:148px;height:26px;background-position:0 -142px;cursor:pointer;border:0;}
+.notvip i{float:left;width:29px;height:21px;display:inline-block;margin:0 5px;background-position:0 -181px;}
+.notvip b{float:left;display:inline-block;line-height:26px;color:#666;}
+.serve_sort{width:730px;height:95px;margin:0 auto;overflow:hidden;}
+.serve_sort .left{float:left;display:inline-block;width:13px;height:95px;margin-right:6px;background-position:-122px -172px;}
+.serve_sort .right{float:left;display:inline-block;width:13px;height:95px;margin-left:6px;background-position:-180px -172px;}
+.serve_sort .sort{float:left;display:inline-block;width:688px;height:70px;margin:12px auto 0;padding:0 2px;overflow:hidden;}
+.serve_sort .sort .box{float:left;display:inline;width:158px;height:68px;margin:0 6px;border:1px solid #e4e4e4;overflow:hidden}
+.serve_sort .sort .box dl{width:150px;height:60px;border:4px solid #f0f0f0;background-position:0 -268px;}
+.serve_sort .sort .box dl dt{height:38px;line-height:38px;font-size:14px;font-weight:bold;color:#ff6600;text-indent:40px;background-position:20px -340px;}
+.serve_sort .sort .box dl dd{text-align:center;}
+.footer{width:960px;margin:0 auto;text-align:center;border-top:2px solid #ff7300;position:relative;overflow:hidden}
+.footer ul{clear:both;width:715px;display:inline-block;margin:0 auto;padding:15px 0;overflow:hidden}
+.footer li{float:left;display:inline;border-right:1px solid #603B00;padding:0 20px;color:#423301;overflow:hidden;}
+.footer li a{color:#423301; text-decoration:none;}
+.footer li a:hover{color:#423301;text-decoration:underline;}
+.footer p{ line-height:22px; text-align:center;}
+.footer p a{ color:#000; text-decoration:none;}
+.footer p a:hover{ color:#000; text-decoration:underline;}
+</style>
+</head>
+
+<body onload="document.getElementById('username').focus()">
+
+<script language="javascript">
+	function toRegiste(){
+		window.location.href="http://register.ebnew.com/simpleRegister/index.view?webType=EPSIII";
+		return false;
+	}
+	document.onkeydown = function(event) {
+	var e = event ? event : (window.event ? window.event : null); 
+		if(e.keyCode == 13) {			
+			document.forms[0].submit();			
+			return false;
+		}
+	}
+</script>
+<div class="login_top"> 
+	<div class="login_head">
+        <em class="login_logo"><a href="http://www.ebnew.com/index.html"><img width="119" height="52" src="/cas/images/login/lognmi.png" alt="领先的买方驱动的招标采购B2B电子商务网站-必联网"/></a></em>
+        <div class="login_sublogo"><img width="119" height="52" src="/cas/images/login/sublogo.png"/></div>
+        <div class="btn_head"><a href="http://www.ebnew.com/index.html" class="a_btn1">首 页</a><a href="http://www.ebnew.com/bottom/product.html" class="a_btn2">会员服务</a></div>
+    </div>
+</div>
+<div class="login_main">
+	<div class="vip_login">
+    	<div class="vip_box">
+		<form name="loginForm" method="post" action="/cas/login">
+			<input name="authorize" type="hidden"  value="true" />
+			
+			<input name="service" type="hidden"  value="http://portal.ebnew.com"  />
+			
+			
+			
+			
+			
+			
+        	<table cellpadding="0" cellspacing="0">
+            	<thead>
+                  <tr>    
+                    	<td colspan="2"><b>会员登录</b></td>
+                    </tr>
+                    <tr>
+                    	<td colspan="2">请输入用户名和密码，按“<span class="col_red">登录</span>”即可。<br/>
+						</td>
+                    </tr>
+                </thead>
+                <tbody>
+			<tr>
+				<td colspan="3">
+						<span class="col_red">
+                        
+                        </span>
+				</td>
+			</tr>
+                	<tr>
+                    	<td>用户名：</td>
+                        <td><input id="username" type="text" name="username" class="text" value="" size="30"/></td>
+                    </tr>
+                    <tr>
+                    	<td>密　码：</td>
+                        <td><input name="password" type="password" class="text" style="width:150px" size="32"/></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                	<tr>
+                    	<td>&nbsp;</td>
+                    	<td><input type="button" id="button2" class="btn_login" onclick="document.forms[0].submit();" />
+						<input type="button" class="btn_res" onclick="return toRegiste();"/></td>
+                    </tr>
+                    <tr>
+                    	<td>&nbsp;</td>
+                    	<td><a href="http://register.ebnew.com/register/queryPwd.view?updateOrigin=EPSIII" target="_blank">忘记用户名？</a><a href="http://register.ebnew.com/register/queryPwd.view?updateOrigin=EPSIII" target="_blank">忘记密码？</a></td>
+                    </tr>
+                </tfoot>
+            </table>
+			</form>
+        </div>
+    </div><!--vip_login end-->
+	<div class="clear"></div>
+    <div class="notvip">
+        <em>我还不是会员</em><input type="button" class="now_res" onclick="return toRegiste();"/><b>选择注册类型</b><i></i><b>填写注册信息</b><i></i><b>注册成功</b>
+    </div><!--notvip end-->
+    <div class="clear"></div>
+    <div class="serve_sort">
+        <p class="left"></p>
+        <div class="sort">
+        	<div class="box">
+                <dl>
+                    <dt>采购业务管理</dt>
+                    <dd>专业在线采购管理平台</dd>
+                </dl>
+            </div>
+            <div class="box">
+                <dl>
+                    <dt>供应商搜寻</dt>
+                    <dd>提供优质供应商</dd>
+                </dl>
+            </div>
+            <div class="box">
+                <dl>
+                    <dt>资讯服务</dt>
+                    <dd>最新最全面的新闻，资讯</dd>
+                </dl>
+            </div>
+            <div class="box">
+                <dl>
+                    <dt>管家式服务</dt>
+                    <dd>一站式采购管理服务</dd>
+                </dl>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <p class="right"></p>
+    </div>
+</div>
+<div class="footer">
+  <ul>
+    <li><a href="http://www.ebnew.com/bottom/about.html" target="_blank">关于必联</a></li>
+    <li><a href="http://www.ebnew.com/bottom/product.html" target="_blank">客户中心</a></li>
+    <li><a href="http://www.ebnew.com/bottom/regulation.html" target="_blank">服务条款</a></li>
+    <li><a href="http://www.ebnew.com/bottom/authenticate.html" target="_blank">诚信认证</a></li>
+    <li><a href="http://www.ebnew.com/bottom/hrjob.html" target="_blank">诚聘英才</a></li>
+    <li><a href="http://www.ebnew.com/bottom/help.html" target="_blank">帮助中心</a></li>
+    <li><a href="http://www.ebnew.com/bottom/friend.html" target="_blank">友情链接</a></li>
+    <li style="border-right:none;"><a href="http://www.ebnew.com/bottom/contact.html" target="_blank">联系我们</a></li>
+  </ul>
+ <p>
+	<span style="font-family:Arial;color:#000;"> © 2001-2012</span> 必联网&nbsp;&nbsp;必联公司 &nbsp;版权所有&nbsp;&nbsp;<a >京ICP备09004729号</a><span style="margin-left:10px;">京公网安备11010802015412号</span><br />
+    电话：86-10-58851133 传真：010-59713262 <a >互联网药品信息服务资格证编号:(京)-经营性-007</a><br />
+    地址：北京市海淀区紫竹院路81号院3号楼北方地产大厦4层 (邮编:100089) <a href="http://www.ebnew.com/bottom/contact.html" target="_blank">(路线地图)</a></p>
+</div>
+</body>
+<script type="text/javascript" src="/cas/js/google_analytics.js;jsessionid=D6BA5A039A91F0C569DD67BDA9778548" async="async" ></script>
+<script type="text/javascript" src="/cas/js/baidu.js;jsessionid=D6BA5A039A91F0C569DD67BDA9778548" async="async" ></script>
+</html>
